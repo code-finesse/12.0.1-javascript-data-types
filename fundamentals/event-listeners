@@ -1,0 +1,20 @@
+# Event Listeners
+
+- addEventListener takes TWO arguments
+- The first argument is the type of even that we are listening for
+- You can have any number of things happen because it is a function
+
+```jsx
+button.addEventListener('click', function(){
+  console.log('Yoo this is crazy')
+  button.style.color = 'pink'
+  button.style.backgroundColor = 'blue'
+  for (let i = 0; i < 5; i++) {
+    console.log(i)
+  }
+})
+```
+
+- eventListeners use anonymous functions inside
+- eventHandlers can use functions outside of the function
+- everything in javascript is an object (it has properties and methods)
